@@ -12,6 +12,7 @@ import com.learnAutomation.utility.ConfigDataProvider;
 import com.learnAutomation.utility.ExcelDataProvider;
 import com.learnAutomation.utility.Helper;
 
+//update this file for git purpose
 public class BaseClass {
 
 	public WebDriver driver;
