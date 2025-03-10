@@ -27,7 +27,7 @@ public class BrowserFactory {
 		}
 		 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		 driver.manage().window().maximize();
-		 driver.get("https://ui.cogmento.com/?lang=en");
+		 driver.get(appURL);
 		 return driver;
 		
 	}

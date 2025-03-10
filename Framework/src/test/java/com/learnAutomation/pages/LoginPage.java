@@ -12,7 +12,7 @@ public class LoginPage {
 		this.driver=ldriver;
 	}
 	
-	@FindBy(xpath="//input[@name='email']1111") WebElement uName;
+	@FindBy(xpath="//input[@name='email']") WebElement uName;
 	@FindBy(xpath="//input[@name='password']") WebElement pass;
 	@FindBy(xpath="//div[contains(text(),'Login')]") WebElement loginButton;
 	
